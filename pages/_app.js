@@ -6,7 +6,7 @@ import { CreditContextProvider } from "@/store/creditContext";
 import Layout from "../components/layouts/layout";
 import axios from "axios";
 export default function App({ Component, pageProps }) {
-  axios.defaults.baseURL = "http://localhost:5000";
+  axios.defaults.baseURL = "https://blog-backend-cv26.onrender.com";
   return (
     <CreditContextProvider>
       <Fragment>
