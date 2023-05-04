@@ -6,7 +6,7 @@ import { CreditContextProvider } from "@/store/creditContext";
 import Layout from "../components/layouts/layout";
 import axios from "axios";
 export default function App({ Component, pageProps }) {
-  axios.defaults.baseURL = "https://blog-backend-production-614d.up.railway.app/blogs";
+  axios.defaults.baseURL = "https://blog-backend-production-614d.up.railway.app";
   return (
     <CreditContextProvider>
       <Fragment>
