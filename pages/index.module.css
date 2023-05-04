@@ -1,0 +1,19 @@
+.featured-blogs-container {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.featured-blogs-container .blog-card {
+  display: inline-block;
+  margin-right: 20px;
+  animation: move-sideways 10s linear infinite;
+}
+
+@keyframes move-sideways {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 20px));
+  }
+}
